@@ -1,0 +1,10 @@
+{
+    "mentors": [
+        { "id": 1, "name": "John Doe", "availability": ["2024-08-15T19:00:00", "2024-08-15T19:30:00"], "area": "AI" },
+        { "id": 2, "name": "Jane Smith", "availability": ["2024-08-15T20:00:00", "2024-08-15T20:30:00"], "area": "ML" }
+    ],
+    "students": [
+        { "id": 1, "name": "Alice Brown", "preferredMentorId": null, "selectedArea": "AI" },
+        { "id": 2, "name": "Bob Johnson", "preferredMentorId": 1, "selectedArea": null }
+    ]
+}
